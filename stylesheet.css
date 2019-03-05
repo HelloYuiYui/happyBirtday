@@ -1,0 +1,80 @@
+::selection {
+    color: white;
+    background-color: darksalmon;
+}
+
+body {
+    background-color: #ffe;
+    width: 60vw;
+    margin: auto;
+    padding-top: 10vh;
+}
+
+header {
+    background-color: #dddddd;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    height: auto;
+    width: 60vw;
+    margin: auto;
+    margin-top: -36px;
+}
+
+main {
+    display: block;
+    height: auto;
+    margin: -36px auto 0 auto;             
+    padding: 20px;
+    background-color: beige;
+}
+
+main p {
+    padding-top: 10px;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    padding: 25px;
+    font-size: 52px;
+    text-shadow: 0px 0px 15px rgba(255, 255, 255, 1);
+    font-family: "Lobster Two", cursive;
+}
+
+form {
+    margin: 15px;
+}
+
+form * {
+    margin: 5px;
+}
+
+hr {
+    width: 55vw;
+    border-color: black;
+    margin-top: 30px;
+}
+
+[type="button"] {
+    color: white;
+    background-color: forestgreen;
+    border: 0;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #dddddd;
+    height: auto;
+    width: 60vw;
+    margin: auto;
+    margin-top: -36px;
+    padding-bottom: 8px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+footer span {
+    padding: 20px;
+}

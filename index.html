@@ -3,27 +3,27 @@
         <title>Happy BDay</title>
         <link rel="icon" href="https://static.thenounproject.com/png/33119-200.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <style>
-            body {
-                background-color: #e882ff;
-                height: 20vh;
-                width: 100vw;
-            }
-            
-            h1 {
-                text-align: center;
-                margin-top: 40vh;
-                font-size: 52px;
-            }
-            
-            h2 {
-                text-align: center;
-                font-size: 28px;
-            }
-        </style>
+        <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+        <link href="stylesheet.css" rel="stylesheet" type="text/css">
+        <script src="script.js"></script>
     </head>
     <body>
-        <h1 id="name"><i class="fa fa-birthday-cake"></i> Happy Birthday Begüm <i class="fa fa-birthday-cake"></i></h1>
-        <h2 id="name"><i class="fa fa-birthday-cake"></i> Doğum Günün Kutlu Olsun Begüm <i class="fa fa-birthday-cake"></i></h2>
+        <header>
+        <h1>Birthday Message Generator</h1>
+        </header>
+        <main>
+            <p>Wish people happy birthday</p><br>
+            
+            <form>
+              <span>Name: </span><input class="container" type="text" value="Edward" id="name"><br>
+              <span>Color: </span><input class="container" type="color" value="#dddddd" id="favcolor"><span id="colorDisp"></span><br>
+              <input type="button" onclick="nav()" value="Click">
+            </form>
+        </main>
+        <footer>
+            <hr>
+            <span><i>Website icon created by <a href="https://www.milky.fr/">Milky - Digital innovation</a> from Noun Porject</i></span>
+            <span><i>Created by <a href="https://github.com/HelloYuiYui">Enes IA</a></i></span>
+        </footer>
     </body>
 </html>

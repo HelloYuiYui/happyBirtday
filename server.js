@@ -54,6 +54,9 @@ app.get("/:vals", function(req, res) {
 `);
 })
 
-http.listen(port, function(){
-    console.log("listening on :" + port);
+app.set('port', process.env.PORT || 80);
+app.set('host', process.env.HOST || '0.0.0.0');
+
+app.listen(app.get('port'), function() {
+  console.log("Node app is running at localhost:" + app.get('port'))
 })

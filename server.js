@@ -1,7 +1,6 @@
 var express = require("express");
 var app = express();
-var http = require("http");//.Server(app);
-var Quad = require("quadratic-encryptor");
+var http = require("http");//Server(app);
 // var dotenv = require("dotenv");
 // var colors = require("colors");
 

@@ -1,0 +1,40 @@
+{
+  "name": "happy-bday",
+  "version": "1.0.0",
+  "description": "Happy Birthday message generator",
+  "main": "index.html",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "dotenv": "^8.0.0",
+    "http-server": "^0.11.1",
+    "jsonwebtoken": "^8.5.1",
+    "jquery": "^3.4.1",
+    "ms": "^2.1.2",
+    "mysql": "^2.17.1",
+    "node-forge": "^0.8.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HelloYuiYui/happyBirtday.git"
+  },
+  "keywords": [
+    "happybirthday",
+    "birthday",
+    "bday",
+    "happy",
+    "generator",
+    "message"
+  ],
+  "author": "EIA",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/HelloYuiYui/happyBirtday/issues"
+  },
+  "homepage": "https://github.com/HelloYuiYui/happyBirtday#readme"
+}

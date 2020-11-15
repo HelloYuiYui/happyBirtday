@@ -11,7 +11,7 @@ app.get("/", function(req, res){
 })
 
 app.get("/:vals", function(req, res) {
-    console.log(req.params.vals);
+    // console.log(req.params.vals);
     var n = (req.params.vals).split("_")[0];
     var c = (req.params.vals).split("_")[1];
     if (n.indexOf("+") > -1) {
